@@ -19,3 +19,10 @@ Usage
 
 Just add `use Rack::Pygmentize` to your `config.ru`. See the example
 in the `/examples` directory.
+
+Middleware?
+-----------
+
+Yes, middleware. If you don't want to use middleware, but still want the
+awesomeness that is Pygments, check out [Albeano](http://github.com/injekt/albeano)
+for adding BBCode style `[code=lang]` blocks to your values.
