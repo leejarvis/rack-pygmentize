@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "rack-pygmentize"
-  s.version     = "1.0.0"
+  s.version     = "1.0.1"
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Lee Jarvis"]
   s.email       = ["lee@jarvis.co"]
