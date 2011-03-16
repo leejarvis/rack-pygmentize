@@ -9,7 +9,7 @@ module Rack
     end
 
     def call(env)
-      call!(env)
+      dup.call!(env)
     end
 
     def call!(env)
