@@ -1,3 +1,6 @@
+require 'minitest/autorun'
+require 'rack/pygmentize'
+
 class RackPygmentizeTest < MiniTest::Unit::TestCase
   def response(body, xpath="//pre[@lang]")
     builder = Rack::Builder.new

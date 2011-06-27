@@ -1,5 +1,4 @@
 task :test do
-  require './lib/rack/pygmentize'
-  require 'minitest/autorun'
-  require_relative './test/rack_pygmentize_test'
+  $:.unshift File.expand_path('../lib', __FILE__)
+  require './test/rack_pygmentize_test'
 end
