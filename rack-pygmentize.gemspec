@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "rack-pygmentize"
-  s.version     = "1.0.1"
+  s.version     = "1.0.2"
   s.authors     = ["Lee Jarvis"]
   s.email       = ["lee@jarvis.co"]
   s.homepage    = "http://github.com/injekt/rack-pygmentize"
