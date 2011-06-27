@@ -24,7 +24,7 @@ module Rack
       end
     end
 
-  private
+    private
 
     def parse(body)
       doc = Nokogiri::HTML(body[0])
